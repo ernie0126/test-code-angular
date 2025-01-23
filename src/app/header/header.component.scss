@@ -1,0 +1,40 @@
+$width: calc(100% - 2rem);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $width;
+  background: #f8f9fa;
+  padding: 1rem;
+  z-index: 1000;
+
+  .logo-left,
+  .logo-right {
+    flex: none;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .angular-logo {
+    max-width: 9.2rem;
+    min-width: 9.2rem;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+}

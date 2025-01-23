@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="left-side">
+    @if(selectedFootballer() != null) {
+    <h1>
+      {{ selectedFootballer()?.name }}
+    </h1>
+    <p>
+      {{ selectedFootballer()?.club }}
+    </p>
+    } @else {
+    <h1>Please Select Footballer</h1>
+    }
+  </div>
+  <div class="divider" role="separator" aria-label="Divider"></div>
+</div>
