@@ -5,7 +5,7 @@ import { MyServiceService } from '../my-service.service';
   selector: 'app-content',
   imports: [],
   templateUrl: './content.component.html',
-  styleUrl: './content.component.scss',
+  styleUrl: './content.component.sass',
 })
 export class ContentComponent {
   constructor(public myService: MyServiceService) {}

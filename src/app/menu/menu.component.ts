@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-menu',
   imports: [],
   templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss',
+  styleUrl: './menu.component.sass'
 })
-export class MenuComponent {}
+export class MenuComponent {
+
+}
